@@ -355,12 +355,16 @@ form>p>a {
 }
 
 @media (max-width: 768px) {
-
-  .container-fluid, .container{
+  header {
     width: 100%;
   }
-  #map > div > div > div:nth-child(1) > div:nth-child(3) > div{
-    width: 300px;
+  footer {
+    width: 100%;
   }
-
+  .container-fluid, .container {
+    width: 100%;
   }
+  #map>div>div>div:nth-child(1)>div:nth-child(3)>div {
+    width: 300px
+  }
+}
