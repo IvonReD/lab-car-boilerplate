@@ -354,18 +354,9 @@ form>p>a {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
-  #first-sec {
-    height: 100vh;
-    background-position-y: bottom;
-    background-position-x: center;
-    width: 100%;
-  }
-  .second-sec, .footer {
-    width: 100%;
-  }
-  #third-sec, #four-sec{
+  .container-fluid, .container{
     width: 100%;
   }
 
