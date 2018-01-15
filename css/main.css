@@ -1,1 +1,355 @@
-/* Los estilos de tu proyecto */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap', sans-serif;
+}
+
+h1, h2, p, a {
+  color: white;
+}
+
+input[placeholder] {
+  color: white;
+}
+
+li>img {
+  padding-bottom: 10%;
+}
+
+span>img {
+  align-content: left;
+}
+
+/* --- Navbar --- */
+
+nav {
+  padding: 20px 60px 20px 40px;
+}
+
+/*--- 1° seccion ---*/
+
+#first-sec>div>div>div>div>p>img {
+  width: 80px;
+}
+
+#first-sec {
+  background-image: url("../assets/images/taxi.jpg");
+  height: 130vh;
+  background-position-y: bottom;
+  background-position-x: center;
+  width: 100%;
+}
+
+#first-sec>.row>.col-lg-5 {
+  background-color: #f1c423;
+  margin-top: 35vh;
+}
+
+#first-h2 {
+  margin-top: 0;
+}
+
+/*--- 3° seccion ---*/
+
+#third-sec {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: center;
+  height: 80vh;
+}
+
+/* --- Seccion 4 --- */
+
+#four-sec {
+  background: #f1c423;
+  padding: 0;
+}
+
+#icon-input {
+  background: none;
+  border: none;
+  padding: 0 10% 15% 0;
+}
+
+#input1, #input2 {
+  background: none;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5%;
+  height: 5vh;
+}
+
+#map {
+  height: 50vh;
+  width: 100%;
+}
+
+/*---- Responsive ----*/
+
+/*Seccion 4*/
+
+#four-sec>div {
+  padding: 62px;
+}
+
+#four-sec>div>div.col-lg-4.col-lg-offset-2.map-area {
+  width: 380px;
+}
+
+/* --- Clases reutilizables ---*/
+
+#first-sec, #third-sec {
+  background-size: cover;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.col-lg-4>h2 {
+  padding: 20% 0% 2% 0%;
+  color: white;
+}
+
+.col-lg-5>.cont-first>h1 {
+  color: white;
+  margin-bottom: 0;
+}
+
+/* --- Fixed navbar --- */
+
+.header {
+  height: 13vh;
+  background: #eaedea;
+}
+
+/* --- Seccion 1 --- */
+
+.cont-first {
+  padding: 4%;
+}
+
+.sub-sec1 {
+  padding: 1%;
+  padding-top: 5%;
+}
+
+.spaceline::after, .spaceline::before {
+  border-bottom: 1px solid #000;
+  border-color: white;
+  bottom: 28%;
+  content: "";
+  margin: 0 10px;
+  position: absolute;
+  width: 150px;
+}
+
+.spaceline::before {
+  left: 30px;
+}
+
+.spaceline::after {
+  right: 30px;
+}
+
+.btnsec1 {
+  margin-top: 5%;
+}
+
+/* --- Seccion 2 --- */
+
+.second-sec {
+  background-color: #f1c423;
+  padding: 0;
+}
+
+.second-sec>.row>.col-lg-9>.col-lg-6>img {
+  width: 68%;
+  margin: 10%;
+  margin-left: 15%;
+}
+
+.second-sec>.row>.col-lg-9>.col-lg-4>p {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 10%;
+}
+
+.col-lg-9 {
+  border: 1px solid white;
+  border-left: none;
+  padding: 0;
+  margin: 3% 3% 3% 0%;
+}
+
+/* --- Seccion 3 --- */
+
+.box-sec3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4%;
+  height: -webkit-fill-available;
+}
+
+.box-sec3>p {
+  font-size: 16px;
+}
+
+.box-sec3>p>.btn {
+  background-color: #f1c423;
+  border-color: #f1c423;
+  color: white;
+  font-size: 18px;
+}
+
+/* --- Seccion 4 --- */
+
+.box-sec4 {
+  padding: 1% 0 15%;
+}
+
+.box-sec4>p {
+  padding: 2% 0 6% 0;
+  font-size: 16px;
+}
+
+.btnsec4 {
+  padding: 2% 8%;
+  margin-left: 25%;
+}
+
+.map-area {
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 10%;
+  width: 250px;
+}
+
+/* --- Seccion Footer --- */
+
+.footer {
+  background: #1d1d24;
+  padding: 10%;
+}
+
+.logo-area {
+  padding: 0% 0 0 0;
+  margin: 0;
+}
+
+.app-img {
+  padding-top: 20%;
+}
+
+.media-area {
+  margin: 0;
+  padding: 0;
+}
+
+.fa {
+  color: white;
+  padding-left: 5%;
+}
+
+.copyright>.col-lg-12>span>p {
+  display: inline;
+  padding-left: 1%;
+}
+
+.copyright>.col-lg-12>.glyphicon-copyright-mark {
+  color: white;
+  width: 100%;
+}
+
+/* Modales (Inicio de sesion, Registrate, Conviertete en un canductor)*/
+
+#bs-example-navbar-collapse-1 {
+  margin-top: 0px;
+  background: #eaedea;
+}
+
+form>p {
+  color: #eff7fe;
+}
+
+form>p>a {
+  color: #e39292;
+}
+
+.modal-content {
+  background-color: rgba(121, 195, 218, 0.5);
+  height: 95vh;
+}
+
+.modal-session {
+  background-color: #909595;
+  color: white;
+  margin: 2%;
+  margin-left: 35%;
+}
+
+#modal-session>div>div>div.session>form>div>input {
+  background: #909595;
+}
+
+.modal-header>img {
+  width: 15%;
+}
+
+.session {
+  width: 60%;
+  margin: 13% 20%;
+}
+
+.session, .session2, .session3 {
+  padding: 33px;
+  background: #0b2f6b;
+}
+
+/* Modal Registro */
+
+.session2 {
+  width: 90%;
+  margin: 3% 5%;
+}
+
+#modal-registry>div>div>div.session2>form>div>div.row>div>div>input {
+  width: 240px;
+  margin: 5px -15px;
+  background: #909595;
+}
+
+#modal-registry>div>div>div.session2>form>div>input {
+  width: 480px;
+  margin: 5px 0;
+  background: #909595;
+}
+
+.text2 {
+  margin-top: 5px;
+}
+
+/* Modal tarifas */
+
+.session3 {
+  width: 90%;
+  height: 85vh;
+  margin: 0% 5%;
+}
+
+#modal-rate>div>div>div.session3>form>div>div>input {
+  background: #909595;
+}
+
+/*  Clases para que el placeholder cambie de color de acuerdo a los navegadores*/
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
