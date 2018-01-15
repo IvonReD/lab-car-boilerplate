@@ -359,5 +359,8 @@ form>p>a {
   .container-fluid, .container{
     width: 100%;
   }
+  #map > div > div > div:nth-child(1) > div:nth-child(3) > div{
+    width: 300px;
+  }
 
   }
