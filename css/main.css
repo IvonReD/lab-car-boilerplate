@@ -353,18 +353,3 @@ form>p>a {
   color: white;
   font-size: 14px;
 }
-
-@media (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-  footer {
-    width: 100%;
-  }
-  .container-fluid, .container {
-    width: 100%;
-  }
-  #map>div>div>div:nth-child(1)>div:nth-child(3)>div {
-    width: 300px
-  }
-}
