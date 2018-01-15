@@ -353,3 +353,20 @@ form>p>a {
   color: white;
   font-size: 14px;
 }
+
+@media (min-width: 768px) {
+
+  #first-sec {
+    height: 100vh;
+    background-position-y: bottom;
+    background-position-x: center;
+    width: 100%;
+  }
+  .second-sec, .footer {
+    width: 100%;
+  }
+  #third-sec, #four-sec{
+    width: 100%;
+  }
+
+  }
